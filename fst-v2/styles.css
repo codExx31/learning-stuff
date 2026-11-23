@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+body
+{
+
+  background-color: #000000;
+  color: #f1f1f1;
+  font: normal 16px 'Charm';
+}
+  .wholesite {max-width: 750px; margin-left:1px; padding-left: 30px; border-left: 2px solid #8b0000}
+
+  .fight { font-style:italic; color: red; transition: 0.2s;}
+  .fight:visited {color: rgb(70, 69, 69)}
+  .fight:hover { color:#f1f1f1; text-decoration: none}
+  .fight:active {color: rgb(70, 69, 69)}
+
+
+  .red {color: red}
+
+  .causes ul {color: red; font-size: 20px}
+  .causes li::marker {color: white}
+  .causes {margin-bottom:30px; }
+
+  hr {border: none; height: 2px; background-color: #8b0000; margin: 10px 0px 10px 0px}
+  
+  .formg {margin-bottom: 12px; font-size: 25px}
+  .formg label {display:inline-block; width:190px; text-transform: capitalize;}
+  .formg input {width: 220px; box-sizing:border-box;  padding: 6px 10px}
+  
+  .hr1 {border: none; height: 2px; background-color: #8b0000; margin: 10px 0px 0px 0px}
+  .hr2 {border: none; height: 2px; background-color: #8b0000; margin: 0px 0px 10px 0px}
+  
+  img {border: none; margin: 0px; display: block;}
+  
+  .card {background-color: #141414; border: 1px solid#8b0000; border-radius:12px; padding: 15px 20px; }
+
+  .card1 {background-color: #141414; border: 1px solid#8b0000; border-radius:12px; padding: 15px 20px 15px 20px; width: fit-content }
+
+  .impt {background-color:#141414; border: 1px solid #8b0000; color: white;}
+  .impt::placeholder {color: #8F8F8F}
+  .impt:focus {outline: none; border-color: red;}
+  .impt:-webkit-autofill,
+  .impt:-webkit-autofill:hover,
+  .impt:-webkit-autofill:focus,
+  .impt:autofill {-webkit-box-shadow: 0 0 0 1000px #141414 inset; -webkit-text-fill-color: #f1f1f1; transition: background-color 5000s ease-in-out 0s;}
+  .btn {background-color: #141414; border-color: #8b0000; color: #8f8f8f; padding: 5px 35px; font-family: inherit; font-size: 20px; margin: 10px 0px 0px 310px}
