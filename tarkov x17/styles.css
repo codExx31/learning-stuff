@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: black;
+    color: #e0e0e0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.weaponc {
+    width: 550px;
+    background-color: #161616;
+    border: 1px solid #3a3a3a;
+    padding: 15px;
+    transition: 0.25s;
+}
+
+.weaponc:hover {
+    border-color: lightgray;
+    transform: translateY(-5px);
+}
+
+.card {
+    width: 100%;
+    display: block;
+}
+
+.cheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+}
+
+.cheader h2 {
+    font-size: 16px;
+    color: #9a9a9a;
+}
+
+.cardbody {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.weapon-info {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    text-align: right;
+}
+
+.ammo {
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    display: flex;
+    align-items: baseline;
+}
+
+.counter {
+    color: #e0e0e0
+}
+
+.capacity {
+    color: #9a9a9a
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.sitem span {
+    display: block;
+    font-size: 15px;
+    color: #b0b0b0
+}
+
+.barbg {
+    height: 10px;
+    border: 1px solid #3a3a3a;
+    background-color: gray;
+}
+
+.barfill {
+    height: 100%;
+    background-color: darkblue;
+}
+
+.ergo {
+    width: 58%
+}
+
+.recoil {
+    width: 35%;
+    ;
+}
+
+.range {
+    width: 82%;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #242424;
+    color: #e0e0e0;
+    border: 1px solid color #2e2e2e;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #333333;
+    border-color: red;
+}
+
+.btn:active {
+    transform: scale(0.98)
+}
